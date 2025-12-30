@@ -1,0 +1,34 @@
+:root {
+	/* Base palette */
+	--clr-cream-100: #fffef9;
+	--clr-cream-200: #faf7f2;
+
+	--clr-terracotta-400: #d4745e;
+	--clr-terracotta-500: #c4624f;
+
+	--clr-olive-400: #8b956d;
+	--clr-olive-500: #6b7c59;
+
+	--clr-brown-700: #3d2e1f;
+	--clr-brown-800: #2c2416;
+
+	/* Brand */
+	--color-bg-primary: var(--clr-cream-100);
+	--color-bg-secondary: var(--clr-cream-200);
+
+	--color-accent-primary: var(--clr-terracotta-400);
+	--color-accent-hover: var(--clr-terracotta-500);
+
+	--color-accent-secondary: var(--clr-olive-400);
+
+	/* Text */
+	--color-text-primary: var(--clr-brown-800);
+	--color-text-secondary: var(--clr-brown-700);
+
+	/* UI */
+	--color-border: var(--clr-olive-500);
+
+	/* Typography */
+	--ff-header: 'Lora', serif;
+	--ff-body: 'Montserrat', sans-serif;
+}

@@ -1,13 +1,56 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bella-napoli</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bella-napoli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/562d8888bf.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container-flex up">
+  <header class="wrapper container-flex column">
+    <div class="header-social-bar container-flex end">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="header-nav">
+      <div class="header-logo">
+        <p>Bella Napoli</p>
+      </div>
+
+      <div>
+        <div class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav class="header-nav main-nav">
+          <ul>
+            <li><a href="#about">O nas</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#comments">Opinie</a></li>
+            <li><a href="#booking">Rezerwacja</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+
+
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>

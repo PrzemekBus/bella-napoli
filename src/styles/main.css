@@ -1,0 +1,16 @@
+@import './varaibles.css';
+@import './reset.css';
+
+@import './base.css';
+
+@import './components/button.css';
+@import './components/logo.css';
+@import './components/navigation.css';
+
+@import './layout/header.css';
+@import './layout/navigation.css';
+
+
+.bg{
+    background-color: royalblue;
+}
