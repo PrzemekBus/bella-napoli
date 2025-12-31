@@ -21,6 +21,8 @@
 
 	--color-accent-secondary: var(--clr-olive-400);
 
+	--color-accend-thidary: var(--clr-brown-700);
+
 	/* Text */
 	--color-text-primary: var(--clr-brown-800);
 	--color-text-secondary: var(--clr-brown-700);
