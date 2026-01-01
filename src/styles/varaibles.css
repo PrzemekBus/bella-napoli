@@ -1,6 +1,7 @@
 :root {
 	/* Base palette */
 	--clr-cream-100: #fffef9;
+	--clr-cream-100-sh: #fffef9af;
 	--clr-cream-200: #faf7f2;
 
 	--clr-terracotta-400: #d4745e;
@@ -14,6 +15,7 @@
 
 	/* Brand */
 	--color-bg-primary: var(--clr-cream-100);
+	--color-bg-primary-shadow: var(--clr-cream-100-sh);
 	--color-bg-secondary: var(--clr-cream-200);
 
 	--color-accent-primary: var(--clr-terracotta-400);

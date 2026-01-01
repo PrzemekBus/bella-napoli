@@ -1,0 +1,16 @@
+.btn  {
+  display: inline-block;
+  padding: 12px 48px;
+  background-color: var(--color-accent-hover );
+  color: #fff;
+  text-decoration: none;
+  border-radius: 100px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 8px 20px rgba(196, 98, 79, 0.3);
+}
+
+.btn:hover {
+  background-color: var(--color-accent-primary);
+  transform: translateY(-5px);
+}

@@ -5,8 +5,10 @@
 
 @import './components/navigation.css';
 @import './components/burger.css';
+@import './components/button.css';
 
 @import './layout/header.css';
+@import './layout/hero.css';
 
 .bg {
 	background-color: royalblue;

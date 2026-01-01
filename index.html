@@ -15,10 +15,10 @@
   <script src="https://kit.fontawesome.com/562d8888bf.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container-flex up">
-  <header class="header container-flex column">
+<body>
+  <header class="header">
     <div class="bg--secondary">
-      <div class="header__social-bar wrapper  container-flex end">
+      <div class="header__social-bar wrapper">
         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -29,14 +29,14 @@
         <a href="#home">Bella Napoli</a>
       </div>
 
-      <div style="position: relative;">
+      <div class="nav__container">
         <div class="burger-menu" id="burger">
           <span></span>
           <span></span>
           <span></span>
         </div>
 
-        <nav class="header-nav nav">
+        <nav class="nav">
           <ul>
             <li><a class="nav__item" href="#about">O nas</a></li>
             <li><a class="nav__item" href="#menu">Menu</a></li>
@@ -49,7 +49,15 @@
 
     </div>
   </header>
-
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__container wrapper hero--bg">
+        <h1>Bella Napoli - Autentyczna Kuchnia Włoska w Warszawie</h1>
+        <p>Rodzinna restauracja z 15-letnim doświadczeniem</p>
+        <a class="btn" href="#booking">Zarezerwuj stolik</a>
+      </div>
+    </section>
+  </main>
 
 
   <script type="module" src="/src/main.js"></script>
