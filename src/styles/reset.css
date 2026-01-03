@@ -78,6 +78,13 @@ li {
 	padding: 0;
 }
 
+button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
 /* 7. Remove animations for people who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {
 	*,

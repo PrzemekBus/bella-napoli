@@ -14,3 +14,21 @@
   background-color: var(--color-accent-primary);
   transform: translateY(-5px);
 }
+.btn-filter {
+  background-color: var(--color-bg-primary);
+  border: var(--color-border) 2px solid;
+  border-radius: 30px;
+  color: var(--color-border);
+  font-family: var(--ff-body);
+  font-weight: 600;
+  padding: 8px 20px;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-filter--active {
+  background-color: var(--color-accent-primary);
+  color: var(--color-bg-primary);
+  border: none;
+  padding: 10px 22px;
+}

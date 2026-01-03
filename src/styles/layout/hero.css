@@ -5,17 +5,17 @@
 
 .hero h1 {
 	font-family: var(--ff-header);
-	font-size: 3rem;
+	font-size: 4rem;
 	color: var(--color-bg-primary);
 	width: 40%;
 	line-height: 1.2;
-	font-weight: 500;
+	font-weight: 600;
 	z-index: 1;
 }
 
 .hero p {
 	font-family: var(--ff-body);
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	color: var(--color-bg-primary);
 	width: 50%;
 	z-index: 1;
@@ -50,7 +50,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 2rem;
+	gap: 4rem;
 	height: 100vh;
 }
 

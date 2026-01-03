@@ -17,7 +17,7 @@
 
 <body>
   <header class="header">
-    <div class="bg--secondary">
+    <div class="bg--acc-secondary">
       <div class="header__social-bar wrapper">
         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -58,7 +58,7 @@
       </div>
     </section>
 
-    <section class="about-us wrapper" id="about">
+    <section class="about-us bg--secondary" id="about">
       <div class="about-us__header">
         <h2>Nasza Historia</h2>
         <p>Poznaj rodzinę, która od 15 lat serwuje autentyczne włoskie smaki w sercu Warszawy</p>
@@ -79,25 +79,25 @@
         </div>
 
         <div class="about-us__images">
-          <div class="card">
+          <div class="card card--small">
             <img src="./public/aboutus-chef.jpg" alt="Szef kuchni odpoczywający na balkonie restauracji">
             <div class="card__overlay">
               <p>"Nasz szef kuchni z 20-letnim doświadczeniem w autentycznej kuchni włoskiej."</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card card--small">
             <img src="./public/aboutus-interior.jpg" alt="Wnętrze restauracji Bella Napoli z przytulną atmosferą">
             <div class="card__overlay">
               <p>"Przytulne wnętrze restauracji Bella Napoli."</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card card--small">
             <img src="./public/aboutus-oven.jpg" alt="Piec do pizzy w restauracji Bella Napoli">
             <div class="card__overlay">
               <p>"Piec do pizzy w restauracji Bella Napoli."</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card card--small">
             <img src="./public/aboutus-owners.jpg" alt="Właściciele restauracji Bella Napoli, Marii i Giuseppe Rossi">
             <div class="card__overlay">
               <p>"Właściciele restauracji Bella Napoli, Marii i Giuseppe Rossi."</p>
@@ -106,7 +106,125 @@
         </div>
       </div>
     </section>
+
+    <section class="menu" id="menu">
+      <div class="menu__header">
+        <h2>Nasze Menu</h2>
+        <p>Odkryj autentyczne smaki Włoch przygotowane z pasją i najlepszymi składnikami</p>
+      </div>
+      <div class="menu__filters" id="menuFilters"><!-- component in JS --></div>
+      <div class="menu__grid" id="menuGrid"><!-- component in JS --></div>
+    </section>
+
+    <section class="gallery bg--secondary" id="gallery">
+      <div class="wrapper">
+        <h2>Galeria</h2>
+        <p>Odkryj nasze wnętrze i kuchnię</p>
+        <div class="gallery__grid"><!-- component in JS --></div>
+      </div>
+    </section>
+    <section class="reservation" id="reservation">
+      <div class="wrapper">
+        <form action="#" class="reservation__form" id="booking">
+          <h2>Rezerwacja Stolik</h2>
+          <p>Zarezerwuj stolik online i ciesz się autentycznymi włoskimi smakami w Bella Napoli</p>
+          <div class="form__group">
+            <label for="name">Imię i Nazwisko</label>
+            <input type="text" id="name" required="required">
+            <label for="email">Email</label>
+            <input type="email" id="email" required="required">
+            <label for="phone">Numer Telefonu</label>
+            <input type="tel" id="phone" required="required">
+            <label for="date">Data</label>
+            <input type="date" id="date" required="required">
+            <label for="time">Godzina</label>
+            <input type="time" id="time" required="required">
+            <label for="guests">Liczba Gości</label>
+            <input type="number" id="guests" min="1" max="20" required="required">
+            <button class="btn" type="submit">Zarezerwuj Stolik</button>
+          </div>
+        </form>
+
+        <div class="contact">
+          <h3>Kontakt</h3>
+          <div class="contact__item">
+            <h4>Telefon</h4>
+            <p>+48 123 456 789</p>
+          </div>
+          <div class="contact__item">
+            <h4>Email</h4>
+            <p>kontakt@bellanapoli.pl</p>
+          </div>
+          <div class="contact__item">
+            <h4>Adres</h4>
+            <p>ul. Włoska 123</p>
+            <p>00-001 Warszawa</p>
+          </div>
+          <div class="contact__item">
+            <h4>Godziny Otwarcia</h4>
+            <p>Poniedziałek - Czwartek: 12:00 - 22:00</p>
+            <p>Piątek-Sobota: 12:00 - 23:00</p>
+            <p>Niedziela: 12:00 - 23:00</p>
+          </div>
+          <div class="contact__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.1234567890123!2d21.0123456789012!3d52.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc1234567890%3A0x1234567890abcdef!2sBella%20Napoli!5e0!3m2!1spl!2spl!4v1234567890123"
+              width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      </form>
+    </section>
+
+    <section class="comments bg--secondary" id="comments">
+      <div class="wrapper">
+        <h2>Opinie Klientów</h2>
+        <p>Co mówią nasi goście o Bella Napoli</p>
+        <div class="comments__carousel">
+          <button class="carousel__btn carousel__btn--prev" id="prevBtn"><i
+              class="fa-solid fa-chevron-left"></i></button>
+          <div class="comments__container" id="commentsContainer">
+            <div class="rating"></div>
+            <div class="message"></div>
+            <div class="name"></div>
+          </div>
+          <button class="carousel__btn carousel__btn--next" id="nextBtn"><i
+              class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="bg--footer">
+    <div class="wrapper">
+      <div class="footer__section">
+        <h2><a href="#">Bella Napoli</a></h2>
+        <p>Rodzinna restauracja włoska w sercu Warszawy. Od 15 lat serwujemy autentyczne włoskie smaki przygotowane z
+          pasją i najlepszych składników.</p>
+      </div>
+      <div class="footer__section">
+        <h2>Kontakt</h2>
+        <p>ul. Włoska 123, 00-001 Warszawa</p>
+        <p>Telefon: +48 123 456 789</p>
+        <p>Email: kontakt@bellanapoli.pl</p>
+      </div>
+      <div class="footer__section">
+        <h2>Godziny Otwarcia</h2>
+        <p>Poniedziałek - Czwartek: 12:00 - 22:00</p>
+        <p>Piątek-Sobota: 12:00 - 23:00</p>
+        <p>Niedziela: 12:00 - 23:00</p>
+        <div class="footer__social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="ruller"></div>
+      <p>&copy; <span id="rightsYear"></span> Bella Napoli. Wszelkie prawa zastrzeżone.| Projekt strony z ❤️</p>
+  </footer>
 
 
   <script type="module" src="/src/main.js"></script>

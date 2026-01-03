@@ -1,55 +1,89 @@
-.card{
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
+.card {
+	position: relative;
+	overflow: hidden;
+	border-radius: 12px;
 }
 
-.card img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease;
+.card--menu {
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	background-color: var(--color-bg-primary);
+	border-radius: 10px;
+	overflow: hidden;
 }
 
-.card__overlay{
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.55);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 2px 5px var(--color-bg-primary-shadow);
-  font-style: italic;
-  font-size: 2.2rem;
-  padding: 20px;
-  
-  opacity: 0;
-  transition: opacity 0.4s ease;
+.card--menu img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 10px;
 }
 
-.card:hover img{
-  transform: scale(1.1);
+.card__content--menu {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 15px;
+	font-size: 1.4rem;
 }
-.card:hover .card__overlay{
-  opacity: 1;
+
+.card__content--menu h4 {
+	font-family: var(--ff-header);
+	font-size: 1.8rem;
+}
+.card__content--menu span {
+	font-weight: bold;
+}
+.card.card--small img {
+	width: 300px;
+	height: 200px;
+}
+
+.card__overlay {
+	position: absolute;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.55);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 2px 5px var(--color-bg-primary-shadow);
+	font-style: italic;
+	font-size: 2rem;
+	padding: 20px;
+
+	opacity: 0;
+	transition: opacity 0.4s ease;
+}
+
+.card:hover img {
+	transform: scale(1.1);
+}
+.card:hover .card__overlay {
+	opacity: 1;
+}
+
+.card--hover-up {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card--hover-up:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
 }
 
 @media (hover: none) {
-  .card img{
-    transform: scale(1.1);
-  }
-  .card__overlay{
-    font-size: 1.6rem;
-  }
+	.card img {
+		transform: scale(1.1);
+	}
+	.card__overlay {
+		font-size: 1.6rem;
+	}
 
-  .card:active .card__overlay,
-  .card:focus-visible .card__overlay{
-    opacity: 1;
-  }
+	.card:active .card__overlay,
+	.card:focus-visible .card__overlay {
+		opacity: 1;
+	}
 }

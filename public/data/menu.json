@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Bruschetta al Pomodoro",
+    "category": "przystawki",
+    "categoryLabel": "Przystawki",
+    "price": "28 zł",
+    "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=600",
+    "description": "Chrupiące pieczywo z dojrzałymi pomidorami, świeżą bazylią i aromatyczną oliwą z oliwek. Każda kromka jest opiekana do perfekcji i podawana z dodatkiem czosnku dla wzmocnienia smaku. Idealnie rozpoczyna każdą włoską ucztę."
+  },
+  {
+    "id": 2,
+    "name": "Carpaccio di Manzo",
+    "category": "przystawki",
+    "categoryLabel": "Przystawki",
+    "price": "45 zł",
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600",
+    "description": "Delikatne plastry surowej wołowiny, marynowanej w oliwie z oliwek i cytrynie, podawane z rukolą, kaparami i wiórkami parmezanu. Danie o subtelnym smaku, które zachwyca swoją prostotą i jakością użytych składników."
+  },
+  {
+    "id": 3,
+    "name": "Insalata Caprese",
+    "category": "przystawki",
+    "categoryLabel": "Przystawki",
+    "price": "32 zł",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600",
+    "description": "Klasyczna sałatka z wyspy Capri - świeża mozzarella di bufala, dojrzałe pomidory i świeża bazylia, doprawione najlepszą oliwą extra vergine. Prosta kompozycja, która oddaje esencję włoskiej kuchni i celebruje jakość naturalnych składników."
+  },
+
+  {
+    "id": 4,
+    "name": "Pizza Margherita",
+    "category": "dania",
+    "categoryLabel": "Dania główne",
+    "price": "38 zł",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600",
+    "description": "Najsłynniejsza pizza świata - cienkie, chrupiące ciasto z sosem pomidorowym San Marzano, świeżą mozzarellą fior di latte i aromatyczną bazylią. Wypiekana w wysokiej temperaturze w profesjonalnym piecu, zachowuje autentyczny neapolitański charakter."
+  },
+  {
+    "id": 5,
+    "name": "Pizza Quattro Formaggi",
+    "category": "dania",
+    "categoryLabel": "Dania główne",
+    "price": "46 zł",
+    "image": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=600",
+    "description": "Kompozycja czterech włoskich serów: mozzarella, gorgonzola, parmezan i ricotta. Każdy ser wnosi unikalny smak, tworząc harmonijną całość. Podawana z dodatkiem świeżego oregano i kropli truflowego oleju."
+  },
+  {
+    "id": 6,
+    "name": "Spaghetti Carbonara",
+    "category": "dania",
+    "categoryLabel": "Dania główne",
+    "price": "42 zł",
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600",
+    "description": "Rzymska klasyka - al dente spaghetti w kremowym sosie z żółtek, guanciale, parmezanu reggiano i świeżo mielonego czarnego pieprzu. Przygotowywana zgodnie z oryginalną recepturą, bez dodatku śmietany."
+  },
+  {
+    "id": 7,
+    "name": "Lasagne Bolognese",
+    "category": "dania",
+    "categoryLabel": "Dania główne",
+    "price": "48 zł",
+    "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600",
+    "description": "Tradycyjna zapiekanka z domowym makaronem, powoli gotowanym sosem bolognese oraz kremowym beszamelem. Pieczona do momentu uzyskania złocistej skórki, serwowana z dodatkiem świeżo startego parmezanu."
+  },
+  {
+    "id": 8,
+    "name": "Risotto ai Funghi Porcini",
+    "category": "dania",
+    "categoryLabel": "Dania główne",
+    "price": "52 zł",
+    "image": "https://images.unsplash.com/photo-1606503153255-59d7a5b4e21f?w=600",
+    "description": "Kremowe risotto z suszonymi prawdziwkami, przygotowane na wywarze grzybowym z dodatkiem białego wina i parmezanu. Ryż Carnaroli zapewnia idealną konsystencję i głęboki smak."
+  },
+  {
+    "id": 9,
+    "name": "Osso Buco alla Milanese",
+    "category": "dania",
+    "categoryLabel": "Dania główne",
+    "price": "68 zł",
+    "image": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=600",
+    "description": "Wolno duszona golonka cielęca w sosie z białego wina, pomidorów i warzyw. Mięso rozpływa się w ustach, a szpik w kości nadaje wyjątkowej głębi smaku. Serwowane z gremolatą i risotto alla milanese."
+  },
+
+  {
+    "id": 10,
+    "name": "Tiramisu",
+    "category": "desery",
+    "categoryLabel": "Desery",
+    "price": "26 zł",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600",
+    "description": "Klasyczny włoski deser z biszkoptów savoiardi nasączonych espresso, przełożonych kremem z mascarpone i posypanych kakao. Przygotowywany według tradycyjnej receptury, wymagającej długiego chłodzenia."
+  },
+  {
+    "id": 11,
+    "name": "Panna Cotta",
+    "category": "desery",
+    "categoryLabel": "Desery",
+    "price": "24 zł",
+    "image": "https://images.unsplash.com/photo-1616690710400-a16d146927c5?w=600",
+    "description": "Jedwabisty deser z gotowanej śmietanki z wanilią bourbon, podawany z domowym coulis z owoców leśnych lub sosem karmelowym. Delikatny i elegancki finał posiłku."
+  },
+  {
+    "id": 12,
+    "name": "Cannoli Siciliani",
+    "category": "desery",
+    "categoryLabel": "Desery",
+    "price": "28 zł",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600",
+    "description": "Tradycyjne sycylijskie rurki z chrupiącego ciasta, wypełnione słodkim kremem z ricotty z dodatkiem kandyzowanych owoców i czekolady. Napełniane na zamówienie dla zachowania chrupkości."
+  }
+]

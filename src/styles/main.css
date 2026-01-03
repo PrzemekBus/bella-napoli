@@ -12,6 +12,7 @@
 @import './layout/header.css';
 @import './layout/hero.css';
 @import './layout/about-us.css';
+@import './layout/menu.css';
 
 .bg {
 	background-color: royalblue;
