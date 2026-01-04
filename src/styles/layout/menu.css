@@ -6,20 +6,6 @@
   gap: 30px;  
 }
 
-.menu__header {
-  text-align: center;
-}
-
-.menu__header h2 {
-  font-family: var(--ff-header);
-  font-size: 3rem;
-  color: var(--color-accent-hover);
-}
-.menu__header p,
-.menu__header h2 {
-  margin-bottom: 3.5rem;
-}
-
 .menu__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

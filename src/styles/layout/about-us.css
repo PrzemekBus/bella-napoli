@@ -5,19 +5,9 @@
 }
 
 .about-us__header {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 2rem;
 	margin-bottom: 50px;
 }
 
-.about-us__header h2 {
-	font-size: 3rem;
-	font-family: var(--ff-header);
-	color: var(--color-accent-primary);
-}
 
 .about-us__content {
 	display: flex;

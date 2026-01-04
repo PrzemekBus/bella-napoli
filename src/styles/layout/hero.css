@@ -3,30 +3,16 @@
 	background: linear-gradient(135deg, var(--clr-cream-200) 0%, var(--clr-olive-400) 100%);
 }
 
-.hero h1 {
-	font-family: var(--ff-header);
-	font-size: 4rem;
-	color: var(--color-bg-primary);
-	width: 40%;
-	line-height: 1.2;
-	font-weight: 600;
-	z-index: 1;
-}
-
-.hero p {
-	font-family: var(--ff-body);
-	font-size: 1.8rem;
-	color: var(--color-bg-primary);
-	width: 50%;
-	z-index: 1;
-}
-
 .hero h1,
 .hero p {
 	text-shadow: 0 2px 5px var(--color-bg-primary-shadow);
+	color: var(--color-bg-primary);
+	width: 50%;
 }
 
-.hero a {
+.hero a,
+.hero h1,
+.hero p {
 	z-index: 1;
 }
 
@@ -46,11 +32,6 @@
 }
 
 .hero__container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 4rem;
 	height: 100vh;
 }
 
