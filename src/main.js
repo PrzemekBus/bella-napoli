@@ -74,5 +74,3 @@ function filteredCards(category) {
 		card.style.display = category === 'all' || card.dataset.category === category ? 'block' : 'none'
 	})
 }
-
-
