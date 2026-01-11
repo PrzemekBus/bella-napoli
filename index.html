@@ -210,45 +210,85 @@
         <div class="reservation__container">
 
           <form action="#" class="form" id="booking">
-              <label for="name">Imię i Nazwisko</label>
+            <div class="form-group">
+              <label for="name">Imię i nazwisko</label>
               <input type="text" id="name" required="required">
+              <span class="error-message">Proszę wpisać imię i nazwisko</span>
+            </div>
+            <div class="form-group">
               <label for="email">Email</label>
               <input type="email" id="email" required="required">
-              <label for="phone">Numer Telefonu</label>
+              <span class="error-message">Proszę podać prawidłowy adres email</span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon</label>
               <input type="tel" id="phone" required="required">
-              <label for="date">Data</label>
+              <span class="error-message">Telefon musi zawierać 9-12 cyfr</span>
+            </div>
+            <div class="form-group">
+              <label for="date">Data rezerwacji</label>
               <input type="date" id="date" required="required">
+              <span class="error-message">Proszę wybrać datę</span>
+            </div>
+            <div class="form-group">
               <label for="time">Godzina</label>
-              <input type="time" id="time" required="required">
-              <label for="guests">Liczba Gości</label>
-              <input type="number" id="guests" min="1" max="20" required="required">
-              <button class="btn" type="submit">Zarezerwuj Stolik</button>
+              <select id="time" required="required">
+                <option value="" disabled selected>Wybierz godzinę</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+                <option value="19:00">19:00</option>
+                <option value="20:00">20:00</option>
+                <option value="21:00">21:00</option>
+                <option value="22:00">22:00</option>
+              </select>
+              <span class="error-message">Proszę wybrać godzinę</span>
+            </div>
+
+            <div class="form-group">
+              <label for="guests">Liczba osób</label>
+              <input type="number" id="guests" min="1" max="20" required="required" placeholder="Wybierz liczbę osób">
+              <span class="error-message">Proszę podać liczbę osób (1-20)</span>
+            </div>
+
+            <div class="form-group">
+              <label for="requests">Dodatkowe uwagi</label>
+              <textarea id="requests" rows="4" placeholder="Np. prośba o stolik przy oknie"></textarea>
+            </div>
+
+            <button class="btn" type="submit">Zarezerwuj Stolik</button>
           </form>
 
-          <div class="contact">
-            <h3>Kontakt</h3>
-            <div class="contact__item">
-              <h4>Telefon</h4>
-              <p>+48 123 456 789</p>
+          <aside class="contact-info">
+            <div class="contact__details">
+              <h3>Kontakt</h3>
+              <div class="contact__item">
+                <h4>Telefon</h4>
+                <p>+48 123 456 789</p>
+              </div>
+              <div class="contact__item">
+                <h4>Email</h4>
+                <p>kontakt@bellanapoli.pl</p>
+              </div>
+              <div class="contact__item">
+                <h4>Adres</h4>
+                <p>ul. Włoska 123</p>
+                <p>00-001 Warszawa</p>
+              </div>
+              <div class="contact__item">
+                <h4>Godziny Otwarcia</h4>
+                <p>Poniedziałek - Czwartek: 12:00 - 22:00</p>
+                <p>Piątek-Sobota: 12:00 - 23:00</p>
+                <p>Niedziela: 12:00 - 23:00</p>
+              </div>
+              <div class="contact__map">
+              </div>
             </div>
-            <div class="contact__item">
-              <h4>Email</h4>
-              <p>kontakt@bellanapoli.pl</p>
-            </div>
-            <div class="contact__item">
-              <h4>Adres</h4>
-              <p>ul. Włoska 123</p>
-              <p>00-001 Warszawa</p>
-            </div>
-            <div class="contact__item">
-              <h4>Godziny Otwarcia</h4>
-              <p>Poniedziałek - Czwartek: 12:00 - 22:00</p>
-              <p>Piątek-Sobota: 12:00 - 23:00</p>
-              <p>Niedziela: 12:00 - 23:00</p>
-            </div>
-            <div class="contact__map">
-            </div>
-          </div>
+          </aside>
         </div>
       </div>
       </form>

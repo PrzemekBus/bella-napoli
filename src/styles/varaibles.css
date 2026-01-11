@@ -13,6 +13,10 @@
 	--clr-brown-700: #3d2e1f;
 	--clr-brown-800: #2c2416;
 
+	--clr-alert-red: #e74c3c;
+	--clr-alert-green: #27ae60;	
+	--clr-alert-yellow: #f39c12;
+
 	/* Brand */
 	--color-bg-primary: var(--clr-cream-100);
 	--color-bg-primary-shadow: var(--clr-cream-100-sh);
