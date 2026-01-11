@@ -1,0 +1,9 @@
+.reservation__container{
+    display: flex;
+    padding: 2rem;
+}
+
+.reservation__container form,
+.reservation__container .contact  {
+  width: 100%;
+}
